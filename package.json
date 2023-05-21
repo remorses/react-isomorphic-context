@@ -15,6 +15,9 @@
         "vite": "^4.3.8",
         "vitest": "^0.31.1"
     },
+    "peerDependencies": {
+        "react": "*"
+    },
     "repository": "https://github.com/remorses/",
     "author": "remorses <beats.by.morse@gmail.com>",
     "license": ""

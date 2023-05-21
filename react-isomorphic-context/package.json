@@ -1,13 +1,11 @@
 {
-    "name": "package",
+    "name": "react-isomorphic-context",
     "version": "0.0.0",
-    "description": "",
-    "main": "dist/index.js",
-    "module": "esm/index.js",
+    "description": "React context that can be used both on client and server components",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/remorses/",
+    "repository": "https://github.com/remorses/react-isomorphic-context",
     "scripts": {
-        "build": "tsc && tsc -m es6 --outDir esm",
+        "build": "tsc",
         "watch": "tsc -w"
     },
     "files": [
@@ -18,7 +16,8 @@
     "keywords": [],
     "author": "Tommaso De Rossi, morse <beats.by.morse@gmail.com>",
     "license": "",
-    "devDependencies": {},
-    "dependencies": {},
-    "peerDependencies": {}
+    "devDependencies": {
+        "@types/react": "18.2.6",
+        "react": "18.2.0"
+    }
 }
