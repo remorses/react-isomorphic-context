@@ -1,5 +1,5 @@
-import { context } from '../../context'
-import './globals.css'
+import { context } from '../../../context'
+import '../globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -11,13 +11,15 @@ export const metadata = {
 
 export default function RootLayout({
     children,
+    params,
 }: {
     children: React.ReactNode
+    params: any
 }) {
     return (
         <html lang='en'>
             <body className={inter.className}>
-                <context.Provider value={{ hello: 'world' }}>
+                <context.Provider value={{ hello: 'slug ' + params.slug }}>
                     {children}
                 </context.Provider>
             </body>
