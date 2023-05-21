@@ -7,6 +7,14 @@
     <br/>
 </div>
 
+## Install
+
+```
+npm i react-isomorphic-context
+```
+
+## Example
+
 Example [here](./nextjs-app/)
 
 ```tsx
