@@ -2,7 +2,7 @@
     <br/>
     <br/>
     <h3>react-isomorphic-context</h3>
-    <p>project under heavy development</p>
+    <p>very experimental use at your own risk</p>
     <br/>
     <br/>
 </div>
