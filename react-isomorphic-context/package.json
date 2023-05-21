@@ -4,6 +4,12 @@
     "description": "React context that can be used both on client and server components",
     "types": "dist/index.d.ts",
     "repository": "https://github.com/remorses/react-isomorphic-context",
+    "exports": {
+        ".": {
+            "react-server": "./dist/index.js",
+            "default": "./dist/index.client.js"
+        }
+    },
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w"
@@ -19,5 +25,8 @@
     "devDependencies": {
         "@types/react": "18.2.6",
         "react": "18.2.0"
+    },
+    "dependencies": {
+        "server-only": "^0.0.1"
     }
 }

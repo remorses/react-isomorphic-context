@@ -4,4 +4,4 @@ type Type = {
     hello: 'world'
 }
 
-export const context = createContext<Type>(null)
+export const context = createContext<Type>('key', )

@@ -8,12 +8,6 @@
         "start": "next start",
         "lint": "next lint"
     },
-    "exports": {
-        ".": {
-            "react-server": "./dist/index.js",
-            "default": "./dist/index.client.js"
-        }
-    },
     "dependencies": {
         "@types/node": "20.2.1",
         "react-isomorphic-context": "workspace:*",
