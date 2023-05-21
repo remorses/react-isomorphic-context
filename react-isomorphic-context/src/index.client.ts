@@ -4,6 +4,9 @@ import { ClientProvider } from './client-provider'
 export function createContext(id) {
     return {
         id,
+        Provider() {
+            throw new Error('Provider is only available on the server')
+        },
     }
 }
 
