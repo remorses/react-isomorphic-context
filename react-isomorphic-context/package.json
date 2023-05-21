@@ -1,7 +1,7 @@
 {
     "name": "react-isomorphic-context",
     "version": "0.0.0",
-    "description": "React context that can be used both on client and server components",
+    "description": "Experimental React context that can be used both on client and server components",
     "types": "dist/index.d.ts",
     "repository": "https://github.com/remorses/react-isomorphic-context",
     "exports": {
