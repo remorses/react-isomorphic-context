@@ -19,7 +19,7 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body className={inter.className}>
-                <context.Provider value={{ hello: 'slug ' + params.slug }}>
+                <context.Provider value={{ hello: 'slug is: ' + params.slug }}>
                     {children}
                 </context.Provider>
             </body>
