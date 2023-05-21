@@ -40,3 +40,13 @@ export default function Server() {
     )
 }
 ```
+
+## Sponsors
+
+[**Notaku**](https://notaku.so)
+
+[![Notaku](https://notaku.so/github_banner.jpg)](https://notaku.so)
+
+---
+
+[Licensed under MIT]().
