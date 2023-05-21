@@ -5,7 +5,7 @@ import { createContext, useState } from 'react'
 
 let contexts = new Map<string, any>()
 
-export function ClientProvider({
+export const ClientProvider = function ClientProvider({
     children,
     id,
     value,
@@ -14,7 +14,7 @@ export function ClientProvider({
     value: any
     id: string
 }) {
-    if (!contexts.has(id)) {
+    if (value !== contexts.get(id)) {
         contexts.set(id, createContext(value))
     }
     const clientContext = contexts.get(id)
@@ -25,6 +25,5 @@ export function ClientProvider({
         </clientContext.Provider>
     )
 }
-
 
 ClientProvider.contexts = contexts
