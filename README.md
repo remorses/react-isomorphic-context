@@ -3,7 +3,6 @@
     <br/>
     <h3>react-isomorphic-context</h3>
     <p>very experimental use at your own risk</p>
-
     <br/>
     <br/>
 </div>
