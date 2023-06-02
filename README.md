@@ -3,7 +3,7 @@
     <br/>
     <h3>react-isomorphic-context</h3>
     <p>very experimental use at your own risk</p>
-    <p>(so experimental it does not even works sometimes)</p>
+
     <br/>
     <br/>
 </div>
